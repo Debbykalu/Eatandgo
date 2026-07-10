@@ -3,7 +3,7 @@ import { Headers } from './meal_components/Headers.jsx'
 import { Hero } from './meal_components/Hero.jsx'
 import { Categories } from './meal_components/Categories.jsx'
 import { Footer } from './meal_components/Footer.jsx'   
-import './assets/Meal.css'
+import './assets/meal.css'
 
 export const Meal = () => {
     const [categories, setCategories] = useState([]); //Categories state to store the fetched data
