@@ -1,20 +1,16 @@
 name: a test workflow
 on:
   push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+    branches: ["main"]
+      
+  
 
 jobs:
-  test:
+  testing-testing:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
       - name: Run tests
         run: echo "Running tests..."
 
-      - uses: actions/checkout@v3
-      - name: Run tests
+      - name: Run tests for the second time
         run: echo "Running tests..."
